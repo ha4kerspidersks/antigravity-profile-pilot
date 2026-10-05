@@ -3,3 +3,15 @@ node_modules/
 *.vsix
 .vscode-test/
 .antigravity/
+
+# Security & Secret Prevention
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+service-account*.json
+*.secret
